@@ -1,0 +1,59 @@
+.container{
+    width: 800px;
+}
+
+.img{
+    width: 80%;
+    height: 75%;
+}
+
+.text{
+    text-align: center;
+}
+
+.form-check{
+    padding-left: 40px;
+}
+
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+    background-color: #f5f5f5;
+    border: 5px solid back;
+  width: 100%;
+  max-width: auto;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
