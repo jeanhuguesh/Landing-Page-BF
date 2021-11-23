@@ -1,24 +1,63 @@
+html {
+    font-size: 14px;
+    font-family:'Comic Sans', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+
+.picture{
+    max-width: 35%;
+}
+
+.title{
+    font-size: 16px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.text{
+    padding: 5%;
+    max-height: 100%;
+    max-width: 50%;
+    float: left;
+    display: inline;
+}
+
+img{
+    float:right;
+    max-width: 45%;
+}
+
+.container{
+    background-color: #4f83ccaf;
+    max-width: 65%;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+  }
+
+.row{
+    margin-top: 5%;
+    background-image: url();
+}
+
+.footer{
+    font-size: 16px;
+    margin-top: 5%;
+}
+
 .container{
     width: 800px;
 }
 
-.img{
-    width: 80%;
-    height: 75%;
-}
-
 .text{
-    text-align: center;
 }
 
 .form-check{
-    padding-left: 40px;
-}
-
-.button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 html,
@@ -36,11 +75,17 @@ body {
 
 .form-signin {
     background-color: #f5f5f5;
-    border: 5px solid back;
   width: 100%;
   max-width: auto;
   padding: 15px;
   margin: auto;
+}
+
+.form-picture{
+    width: 100%;
+    max-width: auto;
+    padding: 15px;
+    margin: auto;
 }
 
 .form-signin .checkbox {
@@ -57,3 +102,7 @@ body {
   border-bottom-left-radius: 0;
 }
 
+.footer{
+    font-size: 16px;
+    margin-top: 5%;
+}
